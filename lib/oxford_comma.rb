@@ -9,7 +9,7 @@ def oxford_comma(array)
     array.pop
 
     array.each do |fruit|
-      fruit.append(", ") 
+      fruit << (", ") 
     end
 
     array << "and " + last
