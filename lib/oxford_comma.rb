@@ -13,7 +13,7 @@ def oxford_comma(array)
 
     array << "and " + last
     # array.join
-   else array.join(" and ")
+  else return array.join(" and ")
    end
 
    array.join
