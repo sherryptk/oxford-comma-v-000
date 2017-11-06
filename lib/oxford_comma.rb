@@ -6,7 +6,7 @@ def oxford_comma(array)
     array.join
   elsif array.size>3
     last = array.pop
-    array.pop!
+    array.pop
 
     array.each do |fruit|
       fruit + ", "
