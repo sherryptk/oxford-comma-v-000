@@ -14,6 +14,7 @@ def oxford_comma(array)
 
     array << "and " + last
     array.join
+    
    else array.join(" and ")
    end
 
